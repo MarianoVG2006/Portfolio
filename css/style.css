@@ -79,7 +79,50 @@ main{
     padding: 20px;
     text-align: center;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.sobre-mi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 30px; 
+}
+
+
+.sobre-mi img {
+    width: 250px; 
+    height: 330px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.sobre-mi p {
+    max-width: 600px; 
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .sobre-mi {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .sobre-mi img {
+        width: 150px;
+        margin-bottom: 10px; 
+    }
+}
+
+main img {
+    width: 150px; 
+    height: auto; 
+    margin: 20px 0; 
+
 }
 
 
