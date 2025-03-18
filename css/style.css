@@ -95,10 +95,12 @@ main{
 
 
 .sobre-mi img {
-    width: 250px; 
-    height: 330px; 
-    margin-left: 20px; 
-    margin-right: 20px; 
+    width: 250px;  /* Ajusta el tamaño según prefieras */
+    height: 250px; /* Mantiene la imagen en proporción */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    border: 3px solid #ffffff; /* Agrega un borde opcional */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
 }
 
 .sobre-mi p {
