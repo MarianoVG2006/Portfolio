@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: #f8f8f8;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.imageicono {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.iconoGIT, .iconoIN {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.enlaceGIT:hover .iconoGIT,
+.enlaceGIT:hover .iconoIN {
+    transform: scale(1.1);
+    fill: #1DA1F2;
+}
+
+.navegar {
+    display: flex;
+    gap: 15px;
+}
+
+.enlaceGIT{
+    color: #000000;
+    margin-left: 15px;
+}
+
+
+.navegar a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.navegar a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        text-align: center;
+        padding: 15px;
+    }
+}
