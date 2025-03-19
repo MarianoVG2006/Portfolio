@@ -178,17 +178,6 @@ main img {
     }
 }
 
-footer {
-    background-color: #ffffff;
-    padding: 20px; 
-    text-align: center; 
-    font-size: 14px; 
-    color: #000; 
-    margin-top: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%; 
-}
 
 footer {
     background-color: #ffffff; 
