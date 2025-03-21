@@ -142,7 +142,7 @@ h1 {
 
 button[type="submit"] {
     padding: 12px;
-    background-color: #28a745;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 8px;
@@ -152,7 +152,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #ffffff;
+    color: black;
 }
 
 .thank-you-message {
