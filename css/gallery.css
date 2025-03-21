@@ -109,19 +109,19 @@ main {
 }
 
 #proyecto1 {
-    background-image: url('/img/Captura\ de\ pantalla\ 2025-03-17\ a\ las\ 16.05.50.png');
+    background-image: url('../img/Captura\ de\ pantalla\ 2025-03-17\ a\ las\ 16.05.50.png');
     background-position: center;
     background-size: contain;
 }
 
 #proyecto2 {
-        background-image: url('/img/mascotas\ copia.png');
+        background-image: url('../img/mascotas\ copia.png');
         background-position: center;
         background-size: 700px;
 }
 
 #proyecto3{
-        background-image: url('/img/Captura\ de\ pantalla\ 2025-03-17\ a\ las\ 16.23.32.png');
+        background-image: url('../img/Captura\ de\ pantalla\ 2025-03-17\ a\ las\ 16.23.32.png');
         background-position: center;
         background-size: contain;
 }
