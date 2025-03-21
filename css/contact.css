@@ -2,7 +2,6 @@ body {
     margin: 0;
     background-color: rgb(0, 0, 0);
     height: 100%;
-    margin: 0;
 }
 
 header {
@@ -73,4 +72,167 @@ h1 {
         text-align: center;
         padding: 15px;
     }
+}
+
+/* Estilos generales para el formulario */
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contact-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-form-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.thank-you-message {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.thank-you-message h3 {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.thank-you-message p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .contact-form-container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .contact-form-container h2 {
+        font-size: 1.75rem;
+    }
+
+    .contact-form-container p {
+        font-size: 0.9rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9rem;
+    }
+
+    button[type="submit"] {
+        font-size: 0.9rem;
+    }
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px; 
+    text-align: center; 
+    font-size: 14px; 
+    color: #000; 
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+
+.footer-left, .footer-center, .footer-right {
+    margin: 0;
+}
+
+
+.footer-left, .footer-right {
+    font-size: 14px; 
+    text-align: left;
+}
+
+.footer-center {
+    font-size: 14px;
+    text-align: center;
 }
