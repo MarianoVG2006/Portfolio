@@ -25,6 +25,8 @@
 ###  Librerías Utilizadas
 
 - [Bootstrap](https://getbootstrap.com/)
+- Logo Git Hub
+- Logo LinkedIn
 
 
 ###  Enlaces de Recursos Externos
@@ -38,3 +40,4 @@
 **1. Al principio tuve problemas con el grid en la pantalla de inicio, no me hacia el responsi. Me di cuenta que no tenia metido el @media para movil y para tablet.Ya cuando lo arregle desde ahi todo me iba perfecto.**
 
 **2. Los enlances no me iba bien desde la pagina de gallery. Me di cuenta que no tenia metido los archivos dentro de mi proyecto entonce no se me iban abrir en la vida.**
+
