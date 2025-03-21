@@ -15,11 +15,7 @@ header {
     flex-wrap: wrap;
 }
 
-main {
-    
-    flex-grow: 1;
 
-}
 .h1inicio {
     font-size: 40px;
     margin-right: 20px;
@@ -81,6 +77,12 @@ main {
         text-align: center;
         padding: 15px;
     }
+}
+
+main {
+    
+    flex-grow: 1;
+
 }
 
 .proyectos-container {
@@ -181,18 +183,6 @@ footer {
     bottom: 0;
     width: 100%; 
 }
-
-footer {
-    background-color: #ffffff; 
-    padding: 20px 0; 
-    text-align: center; 
-    font-size: 14px; 
-    color: #000; 
-    margin-top: 20px; 
-    position: relative;
-    width: 100%; 
-}
-
 
 .footer-content {
     display: flex;
