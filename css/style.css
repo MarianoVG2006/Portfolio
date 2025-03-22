@@ -75,6 +75,14 @@ h1 {
     }
 }
 
+@media (max-width: 480px) {
+    header {
+        flex-direction: column; 
+        text-align: center;
+        padding: 15px;
+    }
+}
+
 main{
     max-width: 1200px;
     margin: 30px auto; 
@@ -114,6 +122,18 @@ main{
 }
 
 @media (max-width: 768px) {
+    .sobre-mi {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .sobre-mi img {
+        width: 150px;
+        margin-bottom: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
     .sobre-mi {
         flex-direction: column; 
         text-align: center;
