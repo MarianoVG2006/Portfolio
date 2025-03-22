@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     background-color: rgb(0, 0, 0);
     height: 100%;
-    margin: 0;
+    
 }
 
 header {
@@ -75,6 +75,14 @@ h1 {
     }
 }
 
+@media (max-width: 480px) {
+    header {
+        flex-direction: column; 
+        text-align: center;
+        padding: 15px;
+    }
+}
+
 main{
     max-width: 1200px;
     margin: 30px auto; 
@@ -102,12 +110,12 @@ main{
 }
 
 .sobremi img {
-    width: 300px;  /* Ajusta el tamaño según prefieras */
-    height: 300px; /* Mantiene la imagen en proporción */
-    border-radius: 30%; /* Hace que la imagen sea redonda */
-    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
-    border: 3px solid #ffffff; /* Agrega un borde opcional */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+    width: 300px;  
+    height: 300px; 
+    border-radius: 30%; 
+    object-fit: cover; 
+    border: 3px solid #ffffff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 @media (max-width: 768px) {

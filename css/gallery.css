@@ -79,6 +79,14 @@ header {
     }
 }
 
+@media (max-width: 480px) {
+    header {
+        flex-direction: column; 
+        text-align: center;
+        padding: 15px;
+    }
+}
+
 main {
     
     flex-grow: 1;
@@ -159,14 +167,14 @@ main {
     color: #000000;
 }
 
-/* Para hacerlo responsive */
-@media (max-width: 900px) {
+
+@media (max-width: 768px) {
     .proyectos-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .proyectos-container {
         grid-template-columns: 1fr;
     }
